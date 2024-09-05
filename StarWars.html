@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarWars</title>
+    <link rel="stylesheet" href="StarWars.css">
+    <li><a href="data.html">Data</a></li>
+</head>
+<body>
+    
+    <form class="inputFields">
+        <input type="text" id="inputName" placeholder="Name">
+        <select name="faction" id="inputFaction"> 
+            <option value="faction">Faction</option>
+            <option value="rebel">Rebel</option>
+            <option value="Empire">Empire</option>
+            <option value="bounty hunter">Bounty Hunter</option>
+        </select>
+        <select name="race" id="inputRace"> 
+            <option value="race">Race</option>
+            <option value="human">Human</option>
+            <option value="mon calamari">Mon Calamari</option>
+            <option value="dathomiri">Dathomiri</option>
+        </select>
+        <button type="submit" id="button">submit words</button>
+        
+    </form>
+
+    <p id="returnField" placeholder="word">hello</p>
+    <button type="submit" id="resetButton">Reset DataBase</button>
+ 
+
+    <script src="StarWars.js"></script>
+</body>
+</html>
